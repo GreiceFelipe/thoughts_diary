@@ -1,0 +1,34 @@
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        Thoughts Diary
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <% if user_signed_in? %>
+            <a class="navbar-item" href='/posts/new'>
+            + Nova Publicação
+            </a>
+        <% end %>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons"> 
+            <% if user_signed_in? %>
+              <%= link_to "Sair", destroy_user_session_path, method: :delete, class: 'button is-light'  %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
