@@ -1,24 +1,16 @@
-# README
+# Projeto em andamento 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Lista de coisas a se fazer 
 
-Things you may want to cover:
+- [ ] Melhorar o layout da index
+- [ ] Melhorar o layout do show de post
+- [ ] Testes Rspec
+- [ ] Verificar como postar no heroku com imagem do post
+- [ ] Colocar um readme descrevendo o projeto
 
-* Ruby version
+OBS: Não esquecer de citar o tutorial de origem do projeto.
+[Onebitcode - criar um blog personalizado do zero](https://onebitcode.com/rails-bulma-criando-um-blog-do-zero-em-poucos-minutos/)
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
